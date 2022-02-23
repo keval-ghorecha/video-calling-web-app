@@ -1,0 +1,54 @@
+.App {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #282c34;
+  color: aliceblue;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.video-container {
+  margin: 20px;
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video {
+ margin:20px;
+}
+
+.text-field-container {
+  padding: 20px;
+}
+
+.text-field {
+  height: 30px;
+  border-radius: 2px;
+  border-color: none;
+  border-width: 0;
+}
+
+.btn-join {
+  background-color: #61dafb;
+  border-color: none;
+  border-width: 0;
+  height: 32px;
+  width: 60px;
+  border-radius: 2px;
+  color: #282c34;
+  margin-left: 8px;
+  font-size: small; 
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
